@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio-here">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> <img src="assets/img/viajes.png" alt="logo.png" width="30"> Viajes
@@ -32,16 +32,16 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#inicio-here">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link active" href="#quienes-here">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link active" href="#destacado-here">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contacto</a>
+                            <a class="nav-link active" href="#contacto-here">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +71,7 @@
             </button>
         </div>
     </header>
-    <div class="row mx-auto">
+    <div class="row mx-auto" id="quienes-here">
         <div class="col-8 text-lg-center mx-auto pt-5">
             <h2 class="title-1 pb-3">¿QUIENES SOMOS?</h2>
         </div>
@@ -137,8 +137,8 @@
     </div>
     </section>
 
-    <section class="container mx-auto pt-5">
-        <div class="row ">
+    <section class="container mx-auto py-5" id="destacado-here">
+        <div class="row">
             <div class="col-8 text-lg-center mx-auto pt-5">
                 <h2 class="title-1 pb-3">DESTACADOS</h2>
             </div>
@@ -189,10 +189,63 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <section class="container pb-5" id="contacto-here">
+        <div class="row">
+            <div class="col-8 text-lg-center mx-auto pt-5">
+                <h2 class="title-1 pb-3">CONTACTO</h2>
+            </div>
+            <div class="row">
+                <div class="col">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputSubject" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="InputSubject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputMessage" class="form-label">Mensaje</label>
+                            <textarea name="text" class="form-control" id="InputMessage" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning text-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
 
+
+    <footer id="det-footer">
+        <section class="container-fluid">
+            <div class="row p-2">
+                <div class="col">
+                    <div id="text-footer" class="ps-5 ms-5">VIAJES CHILE</div>
+                </div>
+                <div class="col ">
+                    <div class="row pt-2 justify-content-end text-center">
+                        <div class="col-2">
+                            <i class="fa-brands fa-github-square "></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-twitter-square"></i>
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
 
