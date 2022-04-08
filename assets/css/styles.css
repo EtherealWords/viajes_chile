@@ -8,10 +8,14 @@ body {
     background-color: #214151;
 }
 
+#det-navbar {
+    font-family: 'Jost', sans-serif;
+}
+
 .carousel-item img {
     overflow: hidden;
-    width: 100%;
-    height: 900px;
+    height: 100%;
+
 }
 
 .title-1 {
@@ -65,7 +69,7 @@ body {
 
 .form-label {
     font-family: 'Oswald', sans-serif;
-    color: #F8DC81;
+    color: #EFF7E1;
 }
 
 #segundo {
@@ -77,9 +81,10 @@ body {
 }*/
 
 #text-footer {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 30px;
     font-weight: 500;
+    letter-spacing: -1px;
     color: #EFF7E1;
 }
 
