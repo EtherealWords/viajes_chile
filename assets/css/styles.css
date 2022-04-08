@@ -44,18 +44,18 @@ body {
 }
 
 .card-body {
-    background-color: #A2D0C1;
+    background-color: #EFF7E1;
 }
 
 .card-title {
     font-family: 'Oswald', sans-serif;
-    color: #FFFFFF;
+    color: #1E212D;
     text-transform: uppercase;
 }
 
 .card-text {
     font-family: 'Lato', sans-serif;
-    color: #1E212D;
+    color: #214151;
 }
 
 .img-det {
@@ -72,15 +72,15 @@ body {
     height: 400px;
 }
 
-#det-footer {
-    background-color: #A2D0C1;
-}
+/*#det-footer {
+    background-color: #1A1A40;
+}*/
 
 #text-footer {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-weight: 500;
-    color: #214151;
+    color: #EFF7E1;
 }
 
 .fa-brands {

@@ -5,19 +5,24 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 $(document).ready(function(){
 
-    $("#press-1").dblclick(function(){
-        $("#text-press-1").toggle("slow");
-    });
+    $("#text-press-1").hide()
 
-    $("#press-2").dblclick(function(){
-        $("#text-press-2").toggle("slow");
-    });
+    $("#press-1").click(function(){
+        $("#text-press-1").toggle ("slow")
+    })
 
-    $("#press-3").dblclick(function(){
-        $("#text-press-3").toggle("slow");
-    });
+    $("#text-press-2").hide()
 
+    $("#press-2").click(function(){
+        $("#text-press-2").toggle ("slow")
+    })
     
+    $("#text-press-3").hide()
+
+    $("#press-3").click(function(){
+        $("#text-press-3").toggle ("slow")
+    })
+
     $("#enviarMensaje").click(function(){
         alert("El mensaje ha sido enviado correctamente")
     }); 
@@ -26,10 +31,10 @@ $(document).ready(function(){
 
         $("nav").offset().top 
         if($("nav").offset().top > 900){
-           $("nav").addClass("bg-secondary")
+           $("nav").addClass("bg-dark")
         }
         else {
-            $("nav").removeClass("bg-secondary")
+            $("nav").removeClass("bg-dark")
         }
     });
 
