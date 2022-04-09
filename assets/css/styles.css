@@ -1,5 +1,3 @@
-/*font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif;*/
 html {
     scroll-behavior: smooth;
 }
@@ -76,9 +74,6 @@ body {
     height: 400px;
 }
 
-/*#det-footer {
-    background-color: #1A1A40;
-}*/
 
 #text-footer {
     font-family: 'Jost', sans-serif;
